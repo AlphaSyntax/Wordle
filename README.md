@@ -15,4 +15,4 @@ Organize data in structures like lists and dictionaries
 6. Organizing my code with functions - reusable, maintainable and extendable.
 
 Wordle main flow: 
-![flowchart](C:\Users\simon\PythonPractice\PythonProjects\Wordle\Wordle_MainFlow1.jpg)
+![flowchart](Wordle_MainFlow1.jpg)
