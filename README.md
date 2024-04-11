@@ -9,4 +9,5 @@ Organize data in structures like lists and dictionaries
 2. Using loops to avoid repetive code - for loop.
 3. Check word letters using set data structure.
 4. Use a words list to make it more fun
+5. Creating a script that converts any textfile into formatted word list
 
