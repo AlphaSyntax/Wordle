@@ -10,4 +10,4 @@ Organize data in structures like lists and dictionaries
 3. Check word letters using set data structure.
 4. Use a words list to make it more fun
 5. Creating a script that converts any textfile into formatted word list
-
+6. Organizing my code with functions

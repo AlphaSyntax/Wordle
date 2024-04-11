@@ -1,10 +1,19 @@
 import pathlib
 import random
+from string import ascii_letters
+
 
 # Choosing random secret word
 WORDLIST = pathlib.Path("wordlist.txt")
-words = [ word.upper() for word in WORDLIST.read_text(encoding="uft-8").strip().split("\n")]
+
+
+words = [ 
+        word.upper() 
+        for word in WORDLIST.read_text(encoding="uft-8").split("\n")
+        if (len(word) == 5) and all(letter in ascii_letters for letter in word)
+        ]
 word = random.choice(words)
+
 
 # Ask the user six times t guess the word
 for guess_num in range(1, 7):
@@ -16,7 +25,8 @@ for guess_num in range(1, 7):
 # user guess is "snake" and secret word is "PYTHON"
 # correct letter, misplaced letter, wrong letter
     correct_letters = {letter for letter, correct in zip(guess, word)
-                       if (letter == correct)}
+                       if (letter == correct)
+                       }
     misplaced_letters = (set(guess) & set(word) - correct_letters)
     wrong_letters = (set(guess) - set(word))
 
