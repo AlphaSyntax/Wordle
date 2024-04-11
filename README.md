@@ -1,4 +1,6 @@
-my first commit for the wordle game written in python and use Rich library for GUI
+## **Wordle Game**
+
+wordle game written in python and use Rich library for GUI
 
 Read input from the user on ther command line
 Use if-statements to check different conditions
@@ -10,4 +12,7 @@ Organize data in structures like lists and dictionaries
 3. Check word letters using set data structure.
 4. Use a words list to make it more fun
 5. Creating a script that converts any textfile into formatted word list
-6. Organizing my code with functions
+6. Organizing my code with functions - reusable, maintainable and extendable.
+
+Wordle main flow: 
+![flowchart](C:\Users\simon\PythonPractice\PythonProjects\Wordle\Wordle_MainFlow1.jpg)
