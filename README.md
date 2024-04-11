@@ -6,6 +6,7 @@ Read input from the user on ther command line
 Use if-statements to check different conditions
 Repeat actions with for and while loops
 Organize data in structures like lists and dictionaries
+Work with data stored in a text file
 
 1. Guess the word - Read user and input and validate it.
 2. Using loops to avoid repetive code - for loop.
