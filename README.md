@@ -23,8 +23,6 @@ To run the application, you need to install the necessary packages listed in the
 Open your terminal.
 Navigate to the project directory.
 Run the following command to install the necessary packages:
-'''
-  pip install -r requirements.txt
-'''
+  > pip install -r requirements.txt
 
 After the installation is complete, you can run the application.
