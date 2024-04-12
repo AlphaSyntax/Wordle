@@ -1,19 +1,28 @@
-## **Wordle Game**
+## Wordle Game
+This project is a Wordle game implemented in Python. It uses the Rich library for GUI and offers an interactive command-line interface.
 
-wordle game written in python and use Rich library for GUI
+# Features
+User Input: The game reads input from the user on the command line.
+Condition Checking: It uses if-statements to check different conditions.
+Looping: It repeats actions with for and while loops.
+Data Structures: It organizes data in structures like lists and dictionaries.
+File Handling: It works with data stored in a text file.
+# Gameplay
+Guess the Word: The game reads user input and validates it.
+Avoid Repetitive Code: It uses a for loop to avoid repetitive code.
+Check Word Letters: It uses a set data structure to check word letters.
+Words List: It uses a words list to make the game more fun.
+Script for Textfile Conversion: It includes a script that converts any textfile into a formatted word list.
+Code Organization: The code is organized with functions for reusability, maintainability, and extendability.
+# Wordle Main Flow
+The main flow of the Wordle game is depicted in the flowchart named “Wordle_MainFlow1.jpg”.
 
-Read input from the user on ther command line
-Use if-statements to check different conditions
-Repeat actions with for and while loops
-Organize data in structures like lists and dictionaries
-Work with data stored in a text file
+# Installation and Setup
+To run the application, you need to install the necessary packages listed in the requirements.txt file. You can do this using pip, a package manager for Python. Here are the steps:
 
-1. Guess the word - Read user and input and validate it.
-2. Using loops to avoid repetive code - for loop.
-3. Check word letters using set data structure.
-4. Use a words list to make it more fun
-5. Creating a script that converts any textfile into formatted word list
-6. Organizing my code with functions - reusable, maintainable and extendable.
+Open your terminal.
+Navigate to the project directory.
+Run the following command to install the necessary packages:
+pip install -r requirements.txt
 
-Wordle main flow: 
-![flowchart](Wordle_MainFlow1.jpg)
+After the installation is complete, you can run the application.
