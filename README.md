@@ -15,7 +15,7 @@ Words List: It uses a words list to make the game more fun.
 Script for Textfile Conversion: It includes a script that converts any textfile into a formatted word list.
 Code Organization: The code is organized with functions for reusability, maintainability, and extendability.
 ## Wordle Main Flow
-The main flow of the Wordle game is depicted in the flowchart ![flow chart](Wordle_MainFlow1.jpg).
+![flow chart](Wordle_MainFlow1.jpg).
 
 ## Installation and Setup
 To run the application, you need to install the necessary packages listed in the requirements.txt file. You can do this using pip, a package manager for Python. Here are the steps:
